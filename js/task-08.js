@@ -15,6 +15,7 @@ function submitHandler(event) {
     profile.password = password.value;
 
     console.log(profile);
+    event.currentTarget.reset();
   }
-  event.currentTarget.reset();
+  
 }
